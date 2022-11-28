@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4008/HW-10/sitemap.xml
+Sitemap: http://localhost:4008/fp3/sitemap.xml
