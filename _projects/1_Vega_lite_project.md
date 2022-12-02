@@ -36,13 +36,13 @@ In the dashboard below, you would see that the first visualization is a geograph
 
 # Visualization 2
 
-While we visualized the hate crime trend at a country level, lets now have a look at how the city of Chicago fares in hate crimes across few of the most frequent bias motivators such as race/ethnicity, gender identity, sexual orientation, and religion. Just like the rest of the country and the world, the total number of crimes have only increased with time but there has been an almost 200% increase in crimes related to race/ethnicity and gender identity related cases have been newly reported in the past 5 years. This trend is corroborated by our first visualization above where we saw that the total number of hate crimes have approximately increased by 25% in 2020 in comparison to 2019.
+While we visualized the hate crime trend at a country level, lets now have a look at how the city of Chicago fares in hate crimes across few of the most frequent bias motivators such as race/ethnicity, gender identity, sexual orientation, and religion [1]. Just like the rest of the country and the world, the total number of crimes have only increased with time but there has been an almost 200% increase in crimes related to race/ethnicity and gender identity related cases have been newly reported in the past 5 years. This trend is corroborated by our first visualization above where we saw that the total number of hate crimes have approximately increased by 25% in 2020 in comparison to 2019.
 
 <img src="{{ site.baseurl }}/assets/json/v33.png" alt="drawing" width="80%"/>
 
 # Visualization 3
 
-We attempted to have a look on the hate crime data of another country to create comparison and extract inferences. Here, we have focused on England and Wales as these are the two countries with maximum number of hate crimes reported within United Kingdom. In the visualization we can see total number of hate crimes in past eleven years across different categories. Hate crimes committed against a person due to their race and sexual orientation are two topmost reported category of hate crime. In 2021, the total of 67% and 16% hate crimes were reported against race and sexual orientation respectively.
+We attempted to have a look on the hate crime data of another country to create comparison and extract inferences. Here, we have focused on England and Wales as these are the two countries with maximum number of hate crimes reported within United Kingdom [2]. In the visualization we can see total number of hate crimes in past eleven years across different categories. Hate crimes committed against a person due to their race and sexual orientation are two topmost reported category of hate crime. In 2021, the total of 67% and 16% hate crimes were reported against race and sexual orientation respectively.
 
 <img src="{{ site.baseurl }}/assets/json/v22.png" alt="drawing" width="80%"/>
 
@@ -51,8 +51,9 @@ We attempted to have a look on the hate crime data of another country to create 
 As we have seen above, irrespective of the hate crime data at a city, country or global level, it has been on a constant rise across and the onus is on us as citizens to be more aware of our surroundings and be responsible. We have to be more conscious about our own biases instilled within us by the society at large.
 
 ### References
- [[1] https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/](https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/)<br> 
-[[2] https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/](https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/) <br>
+[[1] https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/](https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/) <br>
+[[2] https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/](https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/)<br> 
+
 ## Search The Data & Methods
 
 
