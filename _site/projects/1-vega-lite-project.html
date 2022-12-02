@@ -99,43 +99,35 @@ In the dashboard below, you would see that the first visualization is a geograph
 
 <h1 id="visualization-2">Visualization 2</h1>
 
-<p>We have used ordinal encoding type for the X axis because that has the building status mapped. As for the Y axis, we have calculated the sum of the square footage field from the dataframe for the city selected by the user.
-We came across another way of plotting using Altair using the chart function and used that as we were enable to activate interactivity using the “.from_dict” trait (citation has been added above)
-One thing we were not able to achieve was for cities which have only 1 type of building status related data, we were unable to display the other empty building status on the X axis.
-Moreover, altair did not let us enable interactivity for more than 5000 rows, so we had to create a subset of the original dataframe to include only &lt;5000 rows
-Additionally, we tried but could not sort the list of cities in the dropdown
-We also tried to validate the interactivity by using pandas to create a pivot table for the cities to verify the total sum of square footage values for each city for each building status type
-This visualization can provide assistance to the Real Estate Sector in generating the blue-print of the city.</p>
-
-<p><img src="/fp3/assets/json/v22.png" alt="drawing" width="80%" /></p>
-
-<h1 id="visualization-3">Visualization 3</h1>
-
-<p>We have used ordinal encoding type for the X axis because that has the building status mapped. As for the Y axis, we have calculated the sum of the square footage field from the dataframe for the city selected by the user.
-We came across another way of plotting using Altair using the chart function and used that as we were enable to activate interactivity using the “.from_dict” trait (citation has been added above)
-One thing we were not able to achieve was for cities which have only 1 type of building status related data, we were unable to display the other empty building status on the X axis.
-Moreover, altair did not let us enable interactivity for more than 5000 rows, so we had to create a subset of the original dataframe to include only &lt;5000 rows
-Additionally, we tried but could not sort the list of cities in the dropdown
-We also tried to validate the interactivity by using pandas to create a pivot table for the cities to verify the total sum of square footage values for each city for each building status type
-This visualization can provide assistance to the Real Estate Sector in generating the blue-print of the city.</p>
+<p>While we visualized the hate crime trend at a country level, lets now have a look at how the city of Chicago fares in hate crimes across few of the most frequent bias motivators such as race/ethnicity, gender identity, sexual orientation, and religion. Just like the rest of the country and the world, the total number of crimes have only increased with time but there has been an almost 200% increase in crimes related to race/ethnicity and gender identity related cases have been newly reported in the past 5 years. This trend is corroborated by our first visualization above where we saw that the total number of hate crimes have approximately increased by 25% in 2020 in comparison to 2019.</p>
 
 <p><img src="/fp3/assets/json/v33.png" alt="drawing" width="80%" /></p>
 
+<h1 id="visualization-3">Visualization 3</h1>
+
+<p>We attempted to have a look on the hate crime data of another country to create comparison and extract inferences. Here, we have focused on England and Wales as these are the two countries with maximum number of hate crimes reported within United Kingdom. In the visualization we can see total number of hate crimes in past eleven years across different categories. Hate crimes committed against a person due to their race and sexual orientation are two topmost reported category of hate crime. In 2021, the total of 67% and 16% hate crimes were reported against race and sexual orientation respectively.</p>
+
+<p><img src="/fp3/assets/json/v22.png" alt="drawing" width="80%" /></p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>As we have seen above, irrespective of the hate crime data at a city, country or global level, it has been on a constant rise across and the onus is on us as citizens to be more aware of our surroundings and be responsible. We have to be more conscious about our own biases instilled within us by the society at large.</p>
+
 <h3 id="references">References</h3>
 <p><a href="https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/">[1] https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/</a><br /> 
-<a href="https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/">[2]https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/</a> <br /></p>
+<a href="https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/">[2] https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/</a> <br /></p>
 <h2 id="search-the-data--methods">Search The Data &amp; Methods</h2>
 
 <!-- these are written in a combo of html and liquid -->
 
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/building_inventory.csv">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://crime-data-explorer.fr.cloud.gov/pages/downloads">
   The Data
 </a>
 </div>
 
 <div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/akshyay2/HW-10/blob/main/Group11_Homework_10_Final%20(1).ipynb">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/deepanshu96/fp3/blob/main/group_24_final_project_part_3.ipynb">
   The Analysis
 </a>
 </div>
