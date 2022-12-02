@@ -21,11 +21,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="IS 445 DATA VIZUALIZATION">
+  <meta property="og:title" content="Final Project Group No. 24">
   <meta property="og:description" content="This is a "showcase" project that uses vega-lite for interactive viz!">
-  <meta property="og:image" content="assets/pngs/cars.png">
+  <meta property="og:image" content="assets/json/aa.png">
 
-  <title>IS 445 DATA VIZUALIZATION</title>
+  <title>Final Project Group No. 24</title>
   <meta name="description" content="This is a "showcase" project that uses vega-lite for interactive viz!">
 
   <link rel="shortcut icon" type="image/x-icon" href="/fp3/assets/favicon.ico">
@@ -52,7 +52,7 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/fp3/"><h5><b>Final Project Group No.</b></h5></a>
+  <a class="navbar-brand" href="/fp3/"><h5><b>Final Project Group No. 24</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
@@ -73,26 +73,32 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="homework---10-group---11">Homework - 10, Group - 11</h1>
-<h2 id="team-members">Team Members:</h2>
-<h4 id="akshya-yadav">Akshya Yadav</h4>
-<h4 id="deepanshu-malhotra">Deepanshu Malhotra</h4>
-<h4 id="shruti-jain">Shruti Jain</h4>
+  <h1 align="center">
+ Hate Crime on the rise
+</h1>
+<h5 id="group-24-team-members">Group 24: Team Members</h5>
+<h5 id="akshya-yadav">Akshya Yadav</h5>
+<h5 id="deepanshu-malhotra">Deepanshu Malhotra</h5>
+<h5 id="harsh-baberwal">Harsh Baberwal</h5>
+<h5 id="shruti-jain">Shruti Jain</h5>
+<p><br /></p>
 
-<h4 id="we-have-used-the-starboard-code-from-akshyas-homework-9-assignment-and-built-on-it-as-per-the-homework-10-requirements-in-this-assignment-we-have-taken-the-visualization-1-from-the-homework-9-and-plotted-it-using-the-altair-library-in-python-for-visualization-2-we-have-added-a-dropdown-as-an-interactivity-so-that-the-user-can-change-the-city-according-to-their-preference-this-explains-our-overlap-with-assignment-9">We have used the starboard code from Akshya’s Homework 9 assignment and built on it as per the homework 10 requirements. In this assignment, we have taken the visualization 1 from the homework 9 and plotted it using the altair library in python. For visualization 2, we have added a dropdown as an interactivity so that the user can change the city according to their preference. This explains our overlap with assignment 9.</h4>
+<p>A hate crime can be defined as an offense committed against a person based on pre-conceived biases about their identity such as race, gender, sexual orientation, ethnicity, etc. These perpetual crimes have lately been on the rise after certain global incidents. These recent incidents of hate crimes motivated us to find the underlying trends of such crimes (if any) in the United States of America. 
+All sources have been linked at the bottom of the article.</p>
 
 <h1 id="visualization-1">Visualization 1</h1>
-<h3 id="the-aim-for-this-visualization-is-to-understand-how-the-average-size-of-the-buildings-constructed-over-the-years-and-how-has-it-evolved-over-the-years-because-with-time-open-spaces-have-reduced-and-that-has-resulted-in-smaller-buildings">The aim for this visualization is to understand how the average size of the buildings constructed over the years and how has it evolved over the years because with time, open spaces have reduced and that has resulted in smaller buildings.</h3>
-<p>We have used temporal encoding type for the X axis because that has the year value mapped. As for the Y axis, we have calculated the average value of the squar footage field from the dataframe
-We first removed the rows which had empty value in the 2 fields-year constructed and square footage. We then filtered only the data for buildings constructed between the years 1800 and 2022
-We used the same plot from homework 9 but the width and height encoding in javascript was not working the same way in altair and so we had to use “.properties” trait. We got the solution to this issue from https://coderzcolumn.com/tutorials/data-science/altair-basic-interactive-plotting-in-python
-In this line chart, the original color of the plot is green but when we choose the interval, the color of the the graph changes to blue. We were able to make this happen by using colormap. Our aim was to change the color of the selected interval in the plot but we were unable to achieve this is in altair library.
-We did not make this interactive.</p>
+<p>We have used the crime data available with the Federal Bureau of Investigation (FBI) as it is a reliable source of information.
+In the dashboard below, you would see that the first visualization is a geographical map of the United States of America in which we have plotted the total no. of hate crimes reported in the dataset between the years 1991 and 2020 whereas the corresponding line chart is a time series plot for the same data.</p>
+<ul>
+  <li>You have the ability to select one or more states from the map to see the hate crime trend across the years for those states(use shift + click)</li>
+  <li>The color scale for the map depicts the total no. of cases, the darker a state is marked, the more no. of hate crimes have been reported there</li>
+  <li>The user has the ability to select a specific state or multiple(use shift + click) and see the hate crime trend in those states for the years 1991-2020</li>
+</ul>
 
 <vegachart schema-url="/fp3/assets/json/Viz1.json" style="width: 100%"></vegachart>
 
 <h1 id="visualization-2">Visualization 2</h1>
-<h3 id="the-aim-for-this-visualization-is-to-understand-how-much-space-in-terms-of-square-footage-of-buildings-is-actually-in-use-or-not-across-the-various-cities-of-illinois">The aim for this visualization is to understand how much space in terms of square footage of buildings is actually in use or not across the various cities of Illinois</h3>
+
 <p>We have used ordinal encoding type for the X axis because that has the building status mapped. As for the Y axis, we have calculated the sum of the square footage field from the dataframe for the city selected by the user.
 We came across another way of plotting using Altair using the chart function and used that as we were enable to activate interactivity using the “.from_dict” trait (citation has been added above)
 One thing we were not able to achieve was for cities which have only 1 type of building status related data, we were unable to display the other empty building status on the X axis.
@@ -101,8 +107,23 @@ Additionally, we tried but could not sort the list of cities in the dropdown
 We also tried to validate the interactivity by using pandas to create a pivot table for the cities to verify the total sum of square footage values for each city for each building status type
 This visualization can provide assistance to the Real Estate Sector in generating the blue-print of the city.</p>
 
-<vegachart schema-url="/fp3/assets/json/Viz2.json" style="width: 100%"></vegachart>
+<p><img src="/fp3/assets/json/v22.png" alt="drawing" width="80%" /></p>
 
+<h1 id="visualization-3">Visualization 3</h1>
+
+<p>We have used ordinal encoding type for the X axis because that has the building status mapped. As for the Y axis, we have calculated the sum of the square footage field from the dataframe for the city selected by the user.
+We came across another way of plotting using Altair using the chart function and used that as we were enable to activate interactivity using the “.from_dict” trait (citation has been added above)
+One thing we were not able to achieve was for cities which have only 1 type of building status related data, we were unable to display the other empty building status on the X axis.
+Moreover, altair did not let us enable interactivity for more than 5000 rows, so we had to create a subset of the original dataframe to include only &lt;5000 rows
+Additionally, we tried but could not sort the list of cities in the dropdown
+We also tried to validate the interactivity by using pandas to create a pivot table for the cities to verify the total sum of square footage values for each city for each building status type
+This visualization can provide assistance to the Real Estate Sector in generating the blue-print of the city.</p>
+
+<p><img src="/fp3/assets/json/v33.png" alt="drawing" width="80%" /></p>
+
+<h3 id="references">References</h3>
+<p><a href="https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/">[1] https://www.statista.com/statistics/284160/hate-crimes-in-england-and-wales-by-motivating-factor/</a><br /> 
+<a href="https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/">[2]https://home.chicagopolice.org/statistics-data/data-dashboards/hate-crime-dashboard/</a> <br /></p>
 <h2 id="search-the-data--methods">Search The Data &amp; Methods</h2>
 
 <!-- these are written in a combo of html and liquid -->

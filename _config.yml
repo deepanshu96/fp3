@@ -5,7 +5,7 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : Final Project Group No.
+title               : Final Project Group No. 24
 description         : >-
                       This is Final project
 baseurl             : "/fp3"   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
@@ -35,7 +35,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : #XXXEWWEWE
-  image             : #https://dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg
+  image             : assets/json/aa2.png
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
